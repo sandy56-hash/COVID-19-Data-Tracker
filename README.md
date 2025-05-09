@@ -33,19 +33,19 @@ pip install pandas numpy matplotlib seaborn jupyter
 # 3. Launch Jupyter Notebook
 jupyter notebook
 
-****🔍 Key Insights & Reflections****
+## ****🔍 Key Insights & Reflections****
 
- Notable Findings:
+## Notable Findings:
 ✓ Extreme Fatality Variance: Yemen (28.5%) vs. Qatar (0.15%)
 ✓ Data Gaps: 12 countries reported 0 recoveries despite >1k cases
 ✓ Regional Patterns: Western Pacific had highest median recovery rate (89%)
 
-Technical Reflections:
+## Technical Reflections:
 • Challenge: Handling inconsistent "Active Cases" calculations across countries
 • Success: Dynamic metric generation (e.g., Death_Rate) proved versatile
 • Lesson: Log-scale visualizations may better represent skewed distributions
 
-****Future Directions:****
+## ****Future Directions:****
 ◉ Integrate population-normalized metrics
 ◉ Build interactive Dash/Plotly dashboard
 
